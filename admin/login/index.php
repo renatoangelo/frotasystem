@@ -13,10 +13,6 @@ include_once '../common/header.php';
   <!-- /.login-logo -->
 
 <?php
-/*echo password_hash(17543387, PASSWORD_DEFAULT);
-echo "<HR>";
-'" . $dados['email'] . "'
-*/
 
 $dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
 
