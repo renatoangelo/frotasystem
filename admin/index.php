@@ -1,4 +1,3 @@
 <?php
-echo "teste index. imobsystem.tk";
+header("Location: login/index.php");
 ?>
-<a href="login/index.php">Clique Aqui</a>

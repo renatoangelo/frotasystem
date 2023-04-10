@@ -8,7 +8,7 @@ include_once '../common/header.php';
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../login/"><b>Wis</b>Invest</a>
+    <a href="../login/"><b>Frota</b>System</a>
   </div>
   <!-- /.login-logo -->
 
