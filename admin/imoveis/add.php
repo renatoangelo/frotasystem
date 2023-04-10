@@ -42,10 +42,6 @@ include("../include/default.php");
 
 
           <?php
-          /*echo password_hash(17543387, PASSWORD_DEFAULT);
-          echo "<HR>";
-          '" . $dados['email'] . "'
-          */
           $timezone = new DateTimeZone('America/Sao_Paulo');
           $data_agora = new DateTime('now', $timezone);
           $data_agora = $data_agora->format('Y-m-d H:i:s');
