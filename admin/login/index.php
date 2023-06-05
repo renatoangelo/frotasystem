@@ -98,6 +98,11 @@ if(!empty($dados['sendlogin'])) {
   </div>
 </div>
 <!-- /.login-box -->
+
+<script>
+  
+</script>
+
 <?php
 include("../common/header.php");
 ?>
