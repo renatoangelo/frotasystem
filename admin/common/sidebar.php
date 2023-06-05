@@ -3,7 +3,7 @@
     <!-- Brand Logo -->
     <a href="../dashboard/index.php" class="brand-link">
       <img src="../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">ImobSystem</span>
+      <span class="brand-text font-weight-light">FrotaSys</span>
     </a>
 
     <!-- Sidebar -->
@@ -29,15 +29,15 @@
                <li class="nav-item">
             <a href="../dashboard/" class="nav-link">
             <!--<i class="nav-icon fas fa-file"></i>-->
-            <i class="fa-solid fa-house"></i>
-              <p>&nbsp;&nbsp; Home</p>
+            <i class="fa-solid fa-car-side"></i>
+              <p>&nbsp;&nbsp; Veiculos</p>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="../imoveis/" class="nav-link">
-              <i class="nav-icon fas fa-file"></i>
-              <p>Imóveis</p>
+              <i class="nav-icon fas fa-car"></i>
+              <p>Adicionar Veiculos</p>
             </a>
           </li>
 
@@ -45,15 +45,15 @@
           <li class="nav-item">
             <a href="../dashboard/" class="nav-link">
             <!--<i class="nav-icon fas fa-file"></i>-->
-            <i class="fa-solid fa-house"></i>
-              <p>&nbsp;&nbsp; Home</p>
+            <i class="fa-solid fa-id-card"></i>
+              <p>&nbsp;&nbsp; Motorista</p>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="../imoveis/" class="nav-link">
-              <i class="nav-icon fas fa-file"></i>
-              <p>Imóveis</p>
+              <i class="nav-icon fas fa-user"></i>
+              <p>Adicionar Motorista</p>
             </a>
           </li>
 

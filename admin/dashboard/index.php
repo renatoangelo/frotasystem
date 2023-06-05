@@ -22,7 +22,7 @@ include_once '../common/header.php';
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0"><i class="fa-solid fa-gauge"></i> ImobSystem - DashBoard</h1>
+            <h1 class="m-0"><i class="fa-solid fa-gauge"></i> FrotaSys - DashBoard</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -62,7 +62,7 @@ include_once '../common/header.php';
               <div class="inner">
                 <h3>15<sup style="font-size: 20px">+</sup></h3>
 
-                <p>Imóvies Cadastrados</p>
+                <p>Veiculos Cadastrados</p>
               </div>
               <div class="icon">
                 <i class="fas fa-house-user"></i>

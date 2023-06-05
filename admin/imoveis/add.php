@@ -17,12 +17,12 @@ include("../include/default.php");
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">ImobSystem - Imóveis para Vendas</h1>
+            <h1 class="m-0">FrotaSys</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="../dashboard/index.php">Home</a></li>
-              <li class="breadcrumb-item active">Imóveis</li>
+              <li class="breadcrumb-item active">Veiculos</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -37,7 +37,7 @@ include("../include/default.php");
         <div class="card card-primary">
           <!-- .card-header -->
           <div class="card-header">
-            <h3 class="card-title"><i class="fa-solid fa-house"></i> Cadastre um Imóvel</h3>
+            <h3 class="card-title"><i class="fa-solid fa-house"></i> Cadastre um Veiculo</h3>
           </div>
 
 
