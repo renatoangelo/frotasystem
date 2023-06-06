@@ -52,7 +52,7 @@ if(!empty($dados['recovery'])) {
 
     if ($result_update_user->execute()) {
 
-      $link = "http://renatoangelo.com.br/frotasystem/admin/login/update_password.php?key=$recovery_key";
+      $link = "http://renatoangelo.com.br/frotasys/admin/login/update_password.php?key=$recovery_key";
 
       try {
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;
