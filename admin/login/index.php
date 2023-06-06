@@ -31,13 +31,27 @@ if(!empty($dados['sendlogin'])) {
     if(password_verify($dados['password'], $row_user['password'])) {
       $_SESSION['id'] = $row_user['id'];
       $_SESSION['name'] = $row_user['name'];
+      $_SESSION['tenta'] = 0;
       header("Location: ../dashboard/index.php");
     } else {
-      $_SESSION['msg'] = "<p style='color: #ff0000;text-align: center;font-weight: bold;'>Usuário ou Senha Incorretos</p>";
+      $_SESSION['tenta'] = $_SESSION['tenta'] + 1;
+      $_SESSION['msg'] = "<p style='color: #ff0000;text-align: center;font-weight: bold;'>Usuário ou Senha Incorretos</p><h3>Tentativa Nº " . $_SESSION['tenta'] . "</h3>";
+      if ($_SESSION['tenta'] >=3) {
+        // echo "<script>window.alert('vc ultrapassou as tentativas permitidas');</script>";
+        $_SESSION['tenta'] = 0;
+        header("Location: ../dashboard/index.php");
+      }
+
     }
 
   } else{
-    $_SESSION['msg'] = "<p style='color: #ff0000;text-align: center;font-weight: bold;'>Usuário ou Senha Incorretos</p>";
+    $_SESSION['tenta'] = $_SESSION['tenta'] + 1;
+      $_SESSION['msg'] = "<p style='color: #ff0000;text-align: center;font-weight: bold;'>Usuário ou Senha Incorretos</p><h3>Tentativa Nº " . $_SESSION['tenta'] . "</h3>";
+      if ($_SESSION['tenta'] >=3) {
+        // echo "<script>window.alert('vc ultrapassou as tentativas permitidas');</script>";
+        $_SESSION['tenta'] = 0;
+        header("Location: ../dashboard/index.php");
+      }
   }
 
   
@@ -99,8 +113,8 @@ if(!empty($dados['sendlogin'])) {
 </div>
 <!-- /.login-box -->
 
-<script>
-  
+<script lang="js">
+
 </script>
 
 <?php

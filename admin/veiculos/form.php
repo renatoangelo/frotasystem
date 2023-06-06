@@ -1,4 +1,4 @@
-<form method="POST" action="https://wisinvest.com.br/painel/store-real-estate" class="form-post p-5 create-form" >
+<form method="POST" action="https://frotasys.com.br/painel/store-real-estate" class="form-post p-5 create-form" >
 
 <div class="card-header mt-4 bg-primary" >
     <h3 class="">Informações Básicas</h5>

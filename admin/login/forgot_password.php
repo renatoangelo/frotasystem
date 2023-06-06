@@ -15,7 +15,7 @@ include_once '../common/header.php';
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../login/index.php"><b>Imob</b>System</a>
+    <a href="../login/index.php"><b>Frota</b>Sys</a>
   </div>
   <!-- /.login-logo -->
 
@@ -52,7 +52,7 @@ if(!empty($dados['recovery'])) {
 
     if ($result_update_user->execute()) {
 
-      $link = "http://localhost/imobsystem.tk/admin/login/update_password.php?key=$recovery_key";
+      $link = "http://renatoangelo.com.br/frotasystem/admin/login/update_password.php?key=$recovery_key";
 
       try {
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;
@@ -69,7 +69,7 @@ if(!empty($dados['recovery'])) {
 
         $mail->isHTML(true);
         $mail->CharSet = 'UTF-8';
-        $mail->Subject = 'Recuperação de Senha ImobSystem';
+        $mail->Subject = 'Recuperação de Senha FrotaSystem';
         $mail->Body    = 'Prezado (a) ' . $row_user['name'] . '.<br><Br>
         Você solicitou alteração de senha.<br><br>
         Para continuar o processo de recuperação de senha, clique no link abaixo ou cole o endereço no seu navegador: <br><Br><a href="' . $link . '">' . $link . '</a>';

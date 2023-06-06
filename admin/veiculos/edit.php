@@ -68,7 +68,7 @@ include("../include/default.php");
             
             if ($result_imovel->execute()) {
               $_SESSION['msg'] = "<p style='color: #32c330;text-align: center;font-weight: bold;'>Imóvel cadastrado com Sucesso!</p>";
-              header("Location: ../imoveis/list.php");
+              header("Location: ../veiuclos/list.php");
         
             } else {
               $_SESSION['msg'] = "<p style='color: #ff0000;text-align: center;font-weight: bold;'>ERRO: Tente Novamente!</p>"; 

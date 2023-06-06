@@ -27,7 +27,7 @@
           
 
                <li class="nav-item">
-            <a href="../dashboard/" class="nav-link">
+            <a href="../veiculos/" class="nav-link">
             <!--<i class="nav-icon fas fa-file"></i>-->
             <i class="fa-solid fa-car-side"></i>
               <p>&nbsp;&nbsp; Veiculos</p>
@@ -35,7 +35,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="../imoveis/" class="nav-link">
+            <a href="../veiculos/" class="nav-link">
               <i class="nav-icon fas fa-car"></i>
               <p>Adicionar Veiculos</p>
             </a>
@@ -51,7 +51,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="../imoveis/" class="nav-link">
+            <a href="../veiuclos/" class="nav-link">
               <i class="nav-icon fas fa-user"></i>
               <p>Adicionar Motorista</p>
             </a>

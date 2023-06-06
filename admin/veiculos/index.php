@@ -88,7 +88,7 @@ include("../include/default.php");
                       <td><?php echo $row_imoveis['slug']; ?></td>
                       <td><span class="tag tag-success"><?php echo $row_imoveis['created_at']; ?></span></td>
                       <td><a class="btn bg-gradient-info" href=<?php echo URLADMIN . "imoveis/edit.php?id=" . $row_imoveis['id']; ?>" role="button"><i class="fa-solid fa-pen-to-square"></i> Editar</a>
-                      <a class="btn bg-gradient-danger" href="../imoveis/delete.php?id=<?php echo $row_imoveis['id']; ?>" role="button"><i class="fa-solid fa-trash"></i> Excluir</a></td>
+                      <a class="btn bg-gradient-danger" href="../veiculos/delete.php?id=<?php echo $row_imoveis['id']; ?>" role="button"><i class="fa-solid fa-trash"></i> Excluir</a></td>
                     </tr>
                     <?php
                       }
