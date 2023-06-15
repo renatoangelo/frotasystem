@@ -22,7 +22,7 @@ include_once '../common/header.php';
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../login/index.php"><b>Imob</b>System</a>
+    <a href="../login/index.php"><b>Frota</b>Sys</a>
   </div>
   <!-- /.login-logo -->
 

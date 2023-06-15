@@ -4,6 +4,17 @@ ob_start();
 include_once '../include/connection.php';
 include_once '../common/header.php';
 ?>
+<style>
+body {
+  background-image: url('../dist/img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
